@@ -324,7 +324,7 @@ nav {
   .search-inp-mobile {
     display: block; // Показываем мобильное поле поиска
     position: absolute; // Абсолютное позиционирование
-    top: 7%; // Положение сверху
+    top: 7% !important; // Положение сверху
     left: 10%; // Положение слева
 
     input {
@@ -395,7 +395,7 @@ nav {
 }
 @media (max-width: 425px) {
   .search-inp-mobile {
-    top: 4%;
+    top: 4% !important;
   }
 }
 </style>
