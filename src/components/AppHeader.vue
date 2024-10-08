@@ -277,7 +277,7 @@ nav {
   }
 
   .setting {
-    margin-left: 30px; // Отступ слева для настроек
+    margin-left: 60px; // Отступ слева для настроек
   }
 
   .list {
@@ -313,19 +313,18 @@ nav {
   }
 
   nav {
-    margin-bottom: 45px; // Отступ снизу для навигации
-    justify-content: space-between;
+    margin-bottom: 56px; // Отступ снизу для навигации
   }
 
   .menu {
-    margin-bottom: 50px; // Отступ снизу для меню
-    margin-left: 29px; // Отступ слева для меню
+    margin-bottom: 62px; // Отступ снизу для меню
+    margin-left: 33px; // Отступ слева для меню
   }
 
   .search-inp-mobile {
     display: block; // Показываем мобильное поле поиска
     position: absolute; // Абсолютное позиционирование
-    top: 4%; // Положение сверху
+    top: 7%; // Положение сверху
     left: 10%; // Положение слева
 
     input {
@@ -374,7 +373,7 @@ nav {
 
   .info-mobile {
     display: block; // Показываем мобильную информацию
-    margin-right: 20px;
+    margin-right: -37px;
   }
   #closeIcon {
     left: 181px;
@@ -392,6 +391,11 @@ nav {
       width: 285px; // Ширина кнопки
       height: 40px; // Высота кнопки
     }
+  }
+}
+@media (max-width: 425px) {
+  .search-inp-mobile {
+    top: 4%;
   }
 }
 </style>
