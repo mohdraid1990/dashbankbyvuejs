@@ -149,7 +149,7 @@ export default {
       position: absolute; // Абсолютное позиционирование
       z-index: 1000; // Уровень слоя
       background-color: var(--white-color); // Цвет фона боковой панели
-      height: 100%; // Высота на весь экран
+      height: 175vh; // Высота на весь экран
     }
   }
 
