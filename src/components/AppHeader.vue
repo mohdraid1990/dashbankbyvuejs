@@ -276,10 +276,6 @@ nav {
     grid-column: span 12 / span 10; // Заголовок занимает 10 колонок
   }
 
-  .setting {
-    margin-left: 60px; // Отступ слева для настроек
-  }
-
   .list {
     width: 165px; // Ширина списка
     height: 555px; // Высота списка
@@ -395,7 +391,7 @@ nav {
 }
 @media (max-width: 425px) {
   .search-inp-mobile {
-    top: 4% !important;
+    top: 4%;
   }
 }
 </style>
