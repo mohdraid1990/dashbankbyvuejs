@@ -131,7 +131,7 @@ main .link-main {
 }
 
 .link-main a {
-  color: var(--primary-color); /* Цвет الرابط */
+  color: var(--primary-color);
   font-family: Inter; /* Шрифт для ссылок */
   font-size: 16px; /* Размер шрифта */
   font-weight: 500; /* Жирность шрифта */
@@ -228,71 +228,74 @@ form .img-form img {
   border: 1px solid #dfeaf2; /* Граница */
 }
 .name input::placeholder {
-  font-family: Inter, sans-serif; /* شريحة للـ placeholder */
-  font-size: 15px; /* حجم الخط */
-  font-weight: 400; /* وزن الخط */
-  line-height: 18.15px; /* ارتفاع السطر */
-  padding: 20px; /* حواف */
-  color: var(--place-holder-color); /* لون الـ placeholder */
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  padding: 20px;
+  color: var(--place-holder-color);
 }
 
 .select-container {
-  position: relative; /* موضع نسبي */
-  display: inline-block; /* كتلة مضمنة */
+  position: relative;
+  display: inline-block;
 }
 
 #dob {
-  appearance: none; /* إزالة النمط الافتراضي */
-  font-family: Inter, sans-serif; /* الخط للحقل المنسدل */
-  font-size: 15px; /* حجم الخط */
-  font-weight: 400; /* وزن الخط */
-  line-height: 18.15px; /* ارتفاع السطر */
-  color: var(--place-holder-color); /* لون النص */
-  cursor: pointer; /* مؤشر لاصق */
-  padding-left: 20px; /* حواف يسارية */
+  appearance: none;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  color: var(--place-holder-color);
+  cursor: pointer;
+  padding-left: 20px;
 }
 
 #arrow-icon {
-  position: absolute; /* موضع مطلق */
-  right: 30px; /* الموضع من الجهة اليمنى */
-  top: 50%; /* تمركز عمودي */
-  transform: translateY(-50%); /* تحريك إلى المنتصف عمودياً */
-  transition: transform 0.3s ease; /* انتقال سلس عند التغيير */
-  pointer-events: none; /* تجاهل أحداث المؤشر */
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+  pointer-events: none;
 }
 
 .select-container:focus-within #arrow-icon {
-  transform: translateY(-50%) rotate(180deg); /* تدوير السهم عند التركيز */
+  transform: translateY(-50%) rotate(180deg);
 }
 
 .select-container:not(:focus-within) #arrow-icon {
-  transform: translateY(-50%) rotate(0deg); /* استرجاع السهم إلى وضعه الأصلي */
+  transform: translateY(-50%) rotate(0deg);
 }
 
 .btn {
   display: flex;
-  justify-content: center; /* تمركز المحتوى */
-  padding-top: 20px; /* حواف علوية */
-  align-items: center; /* تمركز عمودي */
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
 }
 
 .btn button {
-  width: 190px; /* عرض الزر */
-  height: 50px; /* ارتفاع الزر */
-  background-color: var(--secondary-color); /* لون خلفية الزر */
-  border: none; /* إزالة الحدود */
-  border-radius: 20px; /* تدوير الزوايا */
-  color: var(--white-color); /* لون نص الزر */
-  font-family: Inter; /* الخط لنص الزر */
-  font-size: 18px; /* حجم الخط */
-  font-weight: 500; /* وزن الخط */
-  line-height: 21.78px; /* ارتفاع السطر */
-  text-align: center; /* تمركز النص */
-  cursor: pointer; /* مؤشر لاصق */
+  width: 190px;
+  height: 50px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 20px;
+  color: var(--white-color);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* Медиа-запрос для экранов шириной до 1024px */
 @media (max-width: 1024px) {
+  .line {
+    width: 600px;
+  }
   form .img-form {
     left: 32%; /* Положение формы изображения */
     margin-top: 60px; /* Отступ сверху */
