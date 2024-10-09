@@ -255,7 +255,7 @@ nav {
     height: auto;
   }
 
-  side-bar .logo h1 {
+  #side-bar .logo h1 {
     font-size: 20px !important; /* Размер шрифта для логотипа */
   }
   .list {
@@ -295,13 +295,6 @@ nav {
   }
   side-bar .logo {
     margin-top: 80px; /* Отступ сверху для логотипа */
-  }
-  #sidebar.visible {
-    display: block; /* Показываем боковую панель, если она видима */
-    position: absolute; /* Абсолютное позиционирование */
-    z-index: 1000; /* Уровень слоя */
-    background-color: var(--white-color); /* Цвет фона боковой панели */
-    height: 100%; /* Высота на весь экран */
   }
 }
 
@@ -351,7 +344,7 @@ nav {
     left: 5%; /* Положение слева */
   }
   #closeIcon {
-    left: 143px; /* Положение иконки закрытия */
+    left: 130px; /* Положение иконки закрытия */
   }
   .search-inp-mobile input {
     width: 325px; /* Ширина поля ввода */
