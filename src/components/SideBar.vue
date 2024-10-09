@@ -142,7 +142,7 @@ export default {
     height: auto;
   }
 
-  side-bar .logo h1 {
+  #side-bar .logo h1 {
     font-size: 20px !important; /* Размер шрифта для логотипа */
   }
   .list {
@@ -189,7 +189,7 @@ export default {
     position: absolute; /* Абсолютное позиционирование */
     z-index: 1000; /* Уровень слоя */
     background-color: var(--white-color); /* Цвет фона боковой панели */
-    height: 100%; /* Высота на весь экран */
+            height: 179vh; /* Высота на весь экран */
   }
 }
 
