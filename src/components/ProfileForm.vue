@@ -385,7 +385,7 @@ form .img-form img {
   }
 
   .line {
-    width: 720px !important;
+    width: 550px !important;
     margin-top: 15px;
   }
 }
