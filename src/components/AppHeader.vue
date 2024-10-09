@@ -254,10 +254,6 @@ nav {
     width: auto;
     height: auto;
   }
-  .line {
-    width: 650px !important;
-    margin-top: 15px;
-  }
 
   side-bar .logo h1 {
     font-size: 20px !important; /* Размер шрифта для логотипа */
