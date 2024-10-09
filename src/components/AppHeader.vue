@@ -254,6 +254,11 @@ nav {
     width: auto;
     height: auto;
   }
+  .line {
+    width: 650px !important;
+    margin-top: 15px;
+  }
+
   side-bar .logo h1 {
     font-size: 20px !important; /* Размер шрифта для логотипа */
   }
@@ -291,6 +296,9 @@ nav {
     flex-wrap: wrap; /* Перенос элементов */
     align-items: center; /* Выравнивание по центру */
     margin-top: 90px; /* Отступ сверху */
+  }
+  side-bar .logo {
+    margin-top: 80px; /* Отступ сверху для логотипа */
   }
   #sidebar.visible {
     display: block; /* Показываем боковую панель, если она видима */
@@ -347,7 +355,7 @@ nav {
     left: 5%; /* Положение слева */
   }
   #closeIcon {
-    left: 130px; /* Положение иконки закрытия */
+    left: 143px; /* Положение иконки закрытия */
   }
   .search-inp-mobile input {
     width: 325px; /* Ширина поля ввода */
