@@ -309,7 +309,7 @@ export default {
     height: 40px; /* Высота кнопки */
   }
   #sidebar.visible {
-    height: 167vh;
+    height: 179vh;
   }
 }
 
